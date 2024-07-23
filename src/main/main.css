@@ -1,0 +1,92 @@
+main {
+    position: relative;
+    left: 24vw;
+    
+    width: 74vw;
+    
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.gal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+section {
+    margin-bottom: 10vh;
+    width: 70vw;
+}
+
+section h1 {
+    font-size: 16em;
+}
+
+#home {
+    padding-top: 5vh;
+}
+
+/*CAROUSEL STYLES*/
+.carousel-indicators {
+    max-width: 68vw;
+    margin: 10px auto;
+}
+.carousel-indicators, .carousel-control-prev, .carousel-control-next {
+    color: #C48BD9;
+    border-radius: 5px;
+    padding: 0;
+}
+.carousel-indicators:hover, .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #C48BD9;
+    color: white;
+}
+.carousel-control-prev, .carousel-control-next {
+    height: 8vw;
+    width: 8vw;
+    margin: auto 0;
+}
+
+#comics {
+    min-height: 50vh;
+   /*border-radius: 10px 10px 0 0;*/
+}
+#comics h1, #gallery h1 {
+    background:linear-gradient(0deg, rgba(196, 139, 217, 0.3), rgba(196, 139, 217, 0.3)), url(../assets/hearts-collage.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 50vh;
+    border-radius:10px;
+    text-align: center;
+    color: white;
+} /*I think the background image works better for the title cards labeling the section*/
+
+@media screen and (max-width: 1400px) {
+    main {
+        left: 0;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section h1 {
+        font-size: 8em;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    section h1 {
+        font-size: 4em;
+    }
+}
