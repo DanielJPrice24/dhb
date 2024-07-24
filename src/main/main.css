@@ -34,8 +34,9 @@ section h1 {
 
 /*CAROUSEL STYLES*/
 .carousel-indicators {
-    max-width: 68vw;
     margin: 10px auto;
+    max-width: fit-content;
+    justify-self: center;
 }
 .carousel-indicators, .carousel-control-prev, .carousel-control-next {
     color: #C48BD9;
