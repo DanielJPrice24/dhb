@@ -1,6 +1,6 @@
 import './NavMenu.css'
-//import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram';
-//import { FaTumblr } from '@react-icons/all-files/fa/FaTumblr'
+import { FaInstagram } from "react-icons/fa";
+import { FaTumblr } from "react-icons/fa";
 
 
 function NavMenu() {
@@ -11,12 +11,12 @@ function NavMenu() {
           <a href='#gallery' className='navLink'><li className='navItem'>GALLERY</li></a>
           <a href='https://www.tumblr.com/thedoubleheartsbrigade' target="_blank" rel="noreferrer" className='navLink'>
             <li className='navItem'>
-              TUMBLR
+              <FaTumblr />
             </li>
           </a>
           <a href='https://www.instagram.com/danny2hearts/' target="_blank" rel="noreferrer" className='navLink'>
             <li className='navItem'>
-              INSTAGRAM
+              <FaInstagram />
             </li>
           </a>
         </ul>
