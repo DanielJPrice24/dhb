@@ -14,7 +14,6 @@ menu {
     height: 50%;
 }
 
-
 .navLink {
     text-decoration: none;
 }
@@ -39,11 +38,11 @@ menu {
     background-color: white;
     color: #C48BD9;
 }
-
-#logoimg {
-    width: 100%;
+@media screen and (min-width: 1400px) {
+    #logoimg {
+        width: 100%;
 }
-
+}
 .menuIcon {
     display: none;
 }
@@ -66,6 +65,7 @@ menu {
     menu {
         display: none;
     }
+    
     
     #logoimg {
         object-fit: contain;
