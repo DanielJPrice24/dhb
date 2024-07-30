@@ -3,6 +3,7 @@ import Main from './main/main'
 import Footer from './footer/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <Analytics />
     </div>
   );
 }
