@@ -64,6 +64,7 @@ function Main() {
                                 </Carousel.Item> 
                             ))}
                         </Carousel> 
+                        <div onClick={handleClose}>CLOSE</div>
                     </div> 
                 </Modal>
             </section>
