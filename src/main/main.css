@@ -35,7 +35,7 @@ section h1 {
 /*CAROUSEL STYLES*/
 .carousel-indicators {
     margin: 10px auto;
-    max-width: fit-content;
+    max-width: 70vw;
     justify-self: center;
 }
 .carousel-indicators, .carousel-control-prev, .carousel-control-next {
@@ -51,6 +51,25 @@ section h1 {
     height: 8vw;
     width: 8vw;
     margin: auto 0;
+}
+.closebtn {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    background-color: #C48BD9;
+    cursor: pointer;
+    width: 70vw;
+    height: 5vh;
+    margin: 10px auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.closebtn:hover {
+    background-color: white;
+    color: #C48BD9;
 }
 
 #comics {
