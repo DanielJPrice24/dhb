@@ -19,6 +19,8 @@ import heartThumbnail from "./27_THUMBNAIL.png"
 import solaris from './SOLARIS.jpg'
 import solarisThumbnail from './Solaris_thumbnail.png'
 import monsterSketch from './Monster_sketch.png'
+import ryn from './Ryn.png'
+import rynThumbnail from './Ryn_50per.png'
 
 
 //150dpi is the one
@@ -27,6 +29,7 @@ import monsterSketch from './Monster_sketch.png'
 //More research needed
 //My biggest is chai at like 3500
 export const imageSources = [
+    { src: ryn, srcSet: rynThumbnail, title: "Ryn", className: "ryn"},
     { src: solaris,  srcSet: solarisThumbnail, title: "Solaris", className: "solaris"},
     { src: monsterSketch,  srcSet: monsterSketch, title: "Monster Sketch", className: "monsterSketch"},
     { src: heart,  srcSet: heartThumbnail, title: "Heart", className: "heart"},
